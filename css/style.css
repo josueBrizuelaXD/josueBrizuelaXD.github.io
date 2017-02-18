@@ -1,0 +1,59 @@
+
+body {
+  background-color: white;
+  font-size: 18px;
+position: relative;
+}
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+div#pic-background {
+  background-image:
+  url("http://orig12.deviantart.net/97f5/f/2013/088/4/f/clean_blur_hd_background_by_speetix-d5zpor8.jpg");
+  padding: 90px 30px 30px;
+
+}
+
+#own-pic {
+  max-height: 300px;
+}
+
+#name-header {
+  margin-top: 50px;
+}
+
+h1, h4 {
+  color: white;
+}
+
+/*label {
+  color: black;
+}*/
+
+.div-sec {
+  padding-top: 60px;
+}
+
+/*nav.navbar-inverse {
+  background: rgba(0, 0, 0, 0.8);
+}*/
+
+/*label.label-nav , #footer-p {
+  color: white;
+  font-weight:normal;
+  font-size: 17px;
+
+}*/
+
+#footer-p  {
+  background: black;
+  padding: 15px;
+  margin: 0px
+}
