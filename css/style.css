@@ -1,7 +1,7 @@
 body {
-  background-color: black;
+  background-color: white;
   font-size: 18px;
-position: relative;
+  position: relative;
 }
 
 
@@ -13,52 +13,98 @@ position: relative;
 
 
 
-div#pic-background {
-  background-image:
-  url("http://orig12.deviantart.net/97f5/f/2013/088/4/f/clean_blur_hd_background_by_speetix-d5zpor8.jpg");
-  padding: 90px 30px 30px;
+#background-cover {
+padding: 0px;
+	max-height: 1200px;
+		box-shadow: 0px 3px 2px #70777B;
 
 }
 
 #own-pic {
-  max-height: 300px;
+  max-height: 350px;
+  position: relative;
+  bottom: 300px;
+	box-shadow: 0px 0px 50px #70777B;
+	border:2px solid #22C6F4;
+	 
+	
 }
+
+.above-image {
+	color: #22C6F4;
+	position: relative;
+    bottom: 400px;
+	
+}
+
+#pic-container {
+	margin-top: 60px;
+	padding-bottom: 0px;
+	
+}
+
+#top-navbar {
+	background-color: #22C6F4;
+	box-shadow: 0px 4px 10px #70777B;
+	color: #E2E2E2;
+	
+}
+
+#navbarSupportedContent > ul > li a  {
+	color: #E2E2E2;
+}
+#navbarSupportedContent > ul > li a:hover  {
+	color: white;
+}
+
+/*
+#navbarSupportedContent > ul > li a.active {
+	color: red;
+}
+*/
 
 #name-header {
   margin-top: 50px;
 }
 
-h1, h4 {
-  color: white;
+#button-top {
+	border-color: white;
+	color: white;
 }
-
-/*label {
-  color: black;
-}*/
 
 .div-sec {
-  padding-top: 60px;
+	padding-top: 50px;
+	position: relative;
+	bottom: 200px;
 }
 
-/*nav.navbar-inverse {
-  background: rgba(0, 0, 0, 0.8);
-}*/
-
-/*label.label-nav , #footer-p {
-  color: white;
-  font-weight:normal;
-  font-size: 17px;
-
-}*/
+.bio-sec {
+	position: relative;
+	bottom: 250px;
+	
+}
 
 #footer-p  {
-  background: black;
+  background: #22C6F4;
   padding: 15px;
-  margin: 0px
+  margin: 0px;
+  box-shadow: 0px -2px 4px #70777B;
+  color: white;
+  font-size: 16px;
+	
+}
+
+ h3 {
+	font-size: 30px;
+	color: #22C6F4;
+	margin-bottom: 20px;
+	
 }
 
 .card {
     margin-bottom: 15px;
+	box-shadow: 0px 2px 4px #70777B;
+	cursor: pointer;
 }
 
 .card-img-top {
@@ -68,4 +114,12 @@ h1, h4 {
 
 .card-title {
     color:black;
+}
+
+.card-header {
+  background: #22C6F4;
+}
+
+#contact-form {
+	background: E2E2E2;
 }
