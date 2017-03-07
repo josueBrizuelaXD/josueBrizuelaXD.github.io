@@ -1,9 +1,13 @@
 body {
   background-color: white;
-  font-size: 18px;
+  font-size: 18px;	
   position: relative;
+ 
 }
 
+.container-fluid {
+	top:-100px;
+}
 
 .center-block {
   display: block;
@@ -14,9 +18,8 @@ body {
 
 
 #background-cover {
-padding: 0px;
-	max-height: 1200px;
-		box-shadow: 0px 3px 2px #70777B;
+ padding: 0px;
+ box-shadow: 0px 3px 2px #70777B;
 
 }
 
@@ -27,7 +30,6 @@ padding: 0px;
 	box-shadow: 0px 0px 50px #70777B;
 	border:2px solid #22C6F4;
 	 
-	
 }
 
 .above-image {
@@ -57,12 +59,6 @@ padding: 0px;
 	color: white;
 }
 
-/*
-#navbarSupportedContent > ul > li a.active {
-	color: red;
-}
-*/
-
 #name-header {
   margin-top: 50px;
 }
@@ -73,9 +69,10 @@ padding: 0px;
 }
 
 .div-sec {
-	padding-top: 50px;
+	padding-top: 0px;
 	position: relative;
 	bottom: 200px;
+	
 }
 
 .bio-sec {
@@ -103,8 +100,9 @@ padding: 0px;
 
 .card {
     margin-bottom: 15px;
-	box-shadow: 0px 2px 4px #70777B;
+	box-shadow: 0px 2px 2px #70777B;
 	cursor: pointer;
+	border: none;
 }
 
 .card-img-top {
@@ -122,4 +120,54 @@ padding: 0px;
 
 #contact-form {
 	background: E2E2E2;
+}
+
+@media screen and (max-width: 870px) {
+	.container-fluid {
+		top: 0px;
+	}
+	
+	
+	.above-image {
+		bottom: 320px;
+	}
+	
+	#own-pic {
+		max-height: 250px;
+		bottom: 260px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container-fluid {
+		top: -480px;
+	}
+	
+	.above-image {
+		
+		bottom: 460px;
+	}
+}
+
+
+@media screen and (min-width: 1550px) {
+	.container-fluid {
+		top: -600px;
+	}
+	
+	.above-image {
+		bottom: 600px;
+	}
+	
+	h1 {
+		font-size: 50px;
+	}
+	
+	h4 {
+		font-size: 30px;
+	}
+	
+	#own-pic {
+		bottom: 330px;
+	}
 }
