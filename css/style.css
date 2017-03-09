@@ -112,7 +112,7 @@ label {
 }
 
 .card:hover {
-	box-shadow: 0px 0px 10px black;
+	opacity: 0.5;
 }
 
 .card-img-top {
@@ -130,6 +130,10 @@ label {
 
 #contact-form {
 	background: E2E2E2;
+}
+
+#contact-section {
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 870px) {
