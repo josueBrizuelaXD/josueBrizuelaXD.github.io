@@ -98,11 +98,21 @@ body {
 	
 }
 
+label {
+	font-size: 18px;
+	color: dimgrey;
+}
+
 .card {
     margin-bottom: 15px;
 	box-shadow: 0px 2px 2px #70777B;
 	cursor: pointer;
 	border: none;
+	transition: .5s ease;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 10px black;
 }
 
 .card-img-top {
