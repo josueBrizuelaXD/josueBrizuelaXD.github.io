@@ -1,5 +1,7 @@
 
 function activeLink(id) {
+	
+	
 	console.log(id);
 	var navLinks = document.getElementsByClassName("nav-link");
 	for(var i = 0; i < navLinks.length; i++) {

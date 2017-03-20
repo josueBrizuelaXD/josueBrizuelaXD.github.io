@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-size: 18px;	
   position: relative;
+	
  
 }
 
@@ -15,7 +16,48 @@ body {
   margin-right: auto;
 }
 
+.project-menu > label {
+	color:#31C7F2;
+}
 
+a {
+	font-size: 17px;
+}
+
+a:link {
+	color:#31C7F2;
+	background-color:transparent;
+	text-decoration:none
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-shadow: 0px 1px 1px #70777B;
+}
+
+a:visited {
+	color:#31C7F2;
+	background-color:transparent;
+	text-decoration:none;
+    
+}
+
+a:hover {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:active {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a.active {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
 
 #background-cover {
  padding: 0px;
@@ -111,13 +153,10 @@ label {
 	transition: .5s ease;
 }
 
-.card:hover {
-	opacity: 0.5;
-}
-
 .card-img-top {
     width: 100%;
     display: inline-block;
+	transition: .5s ease;
 }
 
 .card-title {
