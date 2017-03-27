@@ -177,9 +177,9 @@ label {
     
 }
 
-.btn-active {
-	color: red;
-	background-color: black;
+button.btn-active {
+	color: black;
+	background-color: transparent;
 	cursor: default;
 }
 
