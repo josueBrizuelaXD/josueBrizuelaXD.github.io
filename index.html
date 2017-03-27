@@ -72,15 +72,16 @@
 		<h3>Projects</h3>
 		
 		<div class="project-menu">
-		<a href="#" class="active">All</a>
+		<button class="active" onclick="filterProjects(this)">All</button>
 		<label>|</label>	
-		<a href="#">Web</a>
+		<button onclick="filterProjects(this)">Web</button>
 		<label>|</label>	
-		<a href="#">iOS</a>	
+		<button  onclick="filterProjects(this)">iOS</button>	
 		</div>
 
 		<div class="card-columns">
-			<a href="http://randomquote-generator.surge.sh" target="_blank">
+			
+			<a href="http://randomquote-generator.surge.sh" target="_blank" class="web">
 				<div class="card">
 
 					<img class="card-img-top img-fluid"  src="img/random-quote.png" alt="an image  linking to a website" height="500px">
@@ -94,7 +95,7 @@
 				</div>
 			</a>
 			
-					<a href="http://josuebrizuelaxd-local-weather.surge.sh" target="_blank">
+					<a href="http://josuebrizuelaxd-local-weather.surge.sh" target="_blank" class="web">
 				<div class="card">
 
 					<img class="card-img-top img-fluid"  src="img/Local-Weather.png" alt="an image  linking to a website">
@@ -108,7 +109,7 @@
 				</div>
 			</a>
 			
-			<a href="https://www.youtube.com/watch?v=1GXheZA4v1M" target="_blank">
+			<a href="https://www.youtube.com/watch?v=1GXheZA4v1M" target="_blank" class="iOS">
 				<div class="card">
 
 					<img class="card-img-top img-fluid"  src="img/rocket-game.png" alt="an image  linking to a website">
@@ -122,7 +123,7 @@
 				</div>
 			</a>
 			
-				<a href="https://www.youtube.com/watch?v=mtzuekIOdsk" target="_blank">
+				<a href="https://www.youtube.com/watch?v=mtzuekIOdsk" target="_blank" class="iOS">
 				<div class="card">
 
 					<img class="card-img-top img-fluid"  src="img/robobird-screenshot.png" alt="an image  linking to a website" height="500px">
@@ -130,6 +131,20 @@
 
 						<h5 class="card-title">Robobird Space</h5>
 						<label>Dodge deadly meteors in this fun game</label>
+
+
+					</div>
+				</div>
+			</a>
+			
+			<a href="http://josuebrizuelaxd-wikiviewer.surge.sh" target="_blank" class="web">
+				<div class="card">
+
+					<img class="card-img-top img-fluid"  src="img/wiki-viewer.png" alt="an image  linking to a website" height="500px">
+					<div class="card-block">
+
+						<h5 class="card-title">Wiki Viewer</h5>
+						<label>Search for wikipedia entries with a simple interface.</label>
 
 
 					</div>
@@ -174,9 +189,6 @@
 </div>
 
 
-
-
-
 		</div><!--end of container -->
 	</div><!--end of container-fluid -->
 
@@ -211,9 +223,7 @@
 	<!-- Bootstrap JS CDN -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	
-	<script>
-	document.getElementById("focus-me").focus
-	</script>
+	<script src="js/script.js"></script>
 
 
 </body>
