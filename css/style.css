@@ -1,13 +1,11 @@
 body {
   background-color: white;
-  font-size: 18px;	
+  font-size: 18px;
   position: relative;
-	
- 
 }
 
 .container-fluid {
-	top:-100px;
+  top: -100px;
 }
 
 .center-block {
@@ -16,65 +14,60 @@ body {
   margin-right: auto;
 }
 
-.project-menu > label {
-	color:#31C7F2;
+.project-menu>label {
+  color: #31C7F2;
 }
 
 a {
-	font-size: 17px;
+  font-size: 17px;
 }
 
 a:link {
-	color:#31C7F2;
-	background-color:transparent;
-	text-decoration:none
+  color: #31C7F2;
+  background-color: transparent;
+  text-decoration: none
 }
 
-h1,h2,h3,h4,h5,h6 {
-	text-shadow: 0px 1px 1px #70777B;
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0px 1px 1px #70777B;
 }
-
 
 #background-cover {
- padding: 0px;
- box-shadow: 0px 3px 2px #70777B;
-
+  padding: 0px;
+  box-shadow: 0px 3px 2px #70777B;
 }
 
 #own-pic {
   max-height: 350px;
   position: relative;
   bottom: 300px;
-	box-shadow: 0px 0px 50px #70777B;
-	border:2px solid #22C6F4;
-	 
+  box-shadow: 0px 0px 50px #70777B;
+  border: 2px solid #22C6F4;
 }
 
 .above-image {
-	color: #22C6F4;
-	position: relative;
-    bottom: 400px;
-	
+  color: #22C6F4;
+  position: relative;
+  bottom: 400px;
 }
 
 #pic-container {
-	margin-top: 60px;
-	padding-bottom: 0px;
-	
+  margin-top: 60px;
+  padding-bottom: 0px;
 }
 
 #top-navbar {
-	background-color: #22C6F4;
-	box-shadow: 0px 4px 10px #70777B;
-	color: #E2E2E2;
-	
+  background-color: #22C6F4;
+  box-shadow: 0px 4px 10px #70777B;
+  color: #E2E2E2;
 }
 
-#navbarSupportedContent > ul > li a  {
-	color: #E2E2E2;
+#navbarSupportedContent>ul>li a {
+  color: #E2E2E2;
 }
-#navbarSupportedContent > ul > li a:hover  {
-	color: white;
+
+#navbarSupportedContent>ul>li a:hover {
+  color: white;
 }
 
 #name-header {
@@ -82,61 +75,52 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #button-top {
-	border-color: white;
-	color: white;
+  border-color: white;
+  color: white;
 }
 
-.div-sec {
-	padding-top: 0px;
-	position: relative;
-	bottom: 200px;
-	
-}
 
 .bio-sec {
-	position: relative;
-	bottom: 250px;
-	
+  position: relative;
+  bottom: 250px;
 }
 
-#footer-p  {
+#footer-p {
   background: #22C6F4;
   padding: 15px;
   margin: 0px;
   box-shadow: 0px -2px 4px #70777B;
   color: white;
   font-size: 16px;
-	
 }
 
- h3 {
-	font-size: 30px;
-	color: #22C6F4;
-	margin-bottom: 20px;
-	
+h3 {
+  font-size: 30px;
+  color: #22C6F4;
+  margin-bottom: 20px;
 }
 
 label {
-	font-size: 18px;
-	color: dimgrey;
+  font-size: 18px;
+  color: dimgrey;
 }
 
 .card {
-    margin-bottom: 15px;
-	box-shadow: 0px 2px 2px #70777B;
-	cursor: pointer;
-	border: none;
-	transition: 0.5s ease-out;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 2px #70777B;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s ease-out;
 }
 
 .card-img-top {
-    width: 100%;
-    display: inline-block;
-	transition: .5s ease;
+  width: 100%;
+  display: inline-block;
+  transition: .5s ease;
 }
 
 .card-title {
-    color:black;
+  color: black;
 }
 
 .card-header {
@@ -144,75 +128,63 @@ label {
 }
 
 #contact-form {
-	background: E2E2E2;
+  background: E2E2E2;
 }
 
 #contact-section {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 870px) {
-	.container-fluid {
-		top: 0px;
-	}
-	
-	
-	.above-image {
-		bottom: 320px;
-	}
-	
-	#own-pic {
-		max-height: 250px;
-		bottom: 260px;
-	}
+  .container-fluid {
+    top: 0px;
+  }
+  .above-image {
+    bottom: 320px;
+  }
+  #own-pic {
+    max-height: 250px;
+    bottom: 260px;
+  }
 }
 
-
-.project-menu > button {
-	color:#31C7F2;
-	background-color:transparent;
-	text-decoration:none;
-	border: none;
-	cursor: pointer;
-    
+.project-menu>button {
+  color: #31C7F2;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 button.btn-active {
-	color: black;
-	background-color: transparent;
-	cursor: default;
+  color: black;
+  background-color: transparent;
+  cursor: default;
 }
 
 @media screen and (min-width: 1200px) {
-	.container-fluid {
-		top: -480px;
-	}
-	
-	.above-image {
-		
-		bottom: 460px;
-	}
+  .container-fluid {
+    top: -480px;
+  }
+  .above-image {
+    bottom: 460px;
+  }
 }
 
-
 @media screen and (min-width: 1550px) {
-	.container-fluid {
-		top: -600px;
-	}
-	
-	.above-image {
-		bottom: 600px;
-	}
-	
-	h1 {
-		font-size: 50px;
-	}
-	
-	h4 {
-		font-size: 30px;
-	}
-	
-	#own-pic {
-		bottom: 330px;
-	}
+  .container-fluid {
+    top: -600px;
+  }
+  .above-image {
+    bottom: 600px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  #own-pic {
+    bottom: 330px;
+  }
 }

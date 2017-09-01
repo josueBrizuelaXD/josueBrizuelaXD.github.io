@@ -15,7 +15,7 @@
 
 <body>
 
-	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="top-navbar" >
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="top-navbar">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="button-top">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -29,9 +29,9 @@
 				<li class="nav-item pull-xs-right">
 					<a onclick="activeLink('projects-link')" data-scroll class="nav-link" href="#projects-section" id="projects-link">Projects</a>
 				</li>
-				<li class="nav-item pull-xs-right">
+				<!-- <li class="nav-item pull-xs-right">
 					<a onclick="activeLink('contact-link')" data-scroll class="nav-link" href="#contact-section" id="contact-link">Contact</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</nav>
@@ -59,269 +59,274 @@
 				<div id="bio-section" class="bio-sec">
 					<h3>Bio</h3>
 
-					<p>I'm a developer with a great passion for technology and beautiful design, I've been coding since 2013 when I started building iPhones apps and currently I'm focusing on web development. I love creating new things that are pleasant to the eye and at the same time simple to use. I am always learning new things and pushing my limits.</p>
+					<p>I'm a developer with a great passion for technology and beautiful design, I've been coding since 2013 when I started building iPhones apps and currently I'm focusing on web development. I love creating new things that are pleasant to the eye and
+						at the same time simple to use. I am always learning new things and pushing my limits. If you want to contact me you can send me an email to <strong>josue0991@hotmail.com</strong></p>
 				</div>
-
-
-			</div><!-- end of pic container -->
-
-
-
-<div class="col-md-12">
-	<div id="projects-section" class="div-sec col-md-12">
-		<h3>Projects</h3>
-
-		<div class="project-menu">
-		<button class="btn-active" onclick="filterProjects(this)">All</button>
-		<label>|</label>
-		<button onclick="filterProjects(this)">Web</button>
-		<label>|</label>
-		<button  onclick="filterProjects(this)">iOS</button>
-		</div>
-
-
-
-		<div class="card-columns">
-
-			<a href="http://forever-beautiful.herokuapp.com" target="_blank" class="web">
-			<div class="card">
-
-				<img class="card-img-top img-fluid"  src="img/forever-beautiful.png" alt="an image  linking to a website" height="500px">
-				<div class="card-block">
-
-					<h5 class="card-title">Forever Beautiful</h5>
-					<label>Full Stack web app created with React.</label>
-
-
-				</div>
-			</div>
-		</a>
-
-		<a href="https://www.youtube.com/watch?v=mtzuekIOdsk" target="_blank" class="iOS">
-		<div class="card">
-
-			<img class="card-img-top img-fluid"  src="img/robobird-screenshot.png" alt="an image  linking to a website" height="500px">
-			<div class="card-block">
-
-				<h5 class="card-title">Robobird Space</h5>
-				<label>Dodge deadly meteors in this fun game</label>
 
 
 			</div>
-		</div>
-	</a>
-
-	<a href="https://github.com/josueBrizuelaXD/cloudMe" target="_blank" class="iOS">
-		<div class="card">
-
-			<img class="card-img-top img-fluid"  src="img/cloudme.png" alt="an image  linking to a website" height="500px">
-			<div class="card-block">
-
-				<h5 class="card-title">CloudMe</h5>
-				<label>An app to store your pics in the cloud.</label>
-
-
-			</div>
-		</div>
-	</a>
-
-
-	<a href="https://github.com/josueBrizuelaXD/Retro-Calculator" target="_blank" class="iOS">
-		<div class="card">
-
-			<img class="card-img-top img-fluid"  src="img/retro-calculator.png" alt="an image  linking to a website">
-			<div class="card-block">
-
-				<h5 class="card-title">Retro Calculator </h5>
-				<label>An stylish calculator for your iPhone that will bring back old memories.</label>
-
-
-			</div>
-		</div>
-	</a>
+			<!-- end of pic container -->
 
 
 
+			<div class="col-md-12">
+				<div id="projects-section" class="div-sec col-md-12">
+					<h3>Projects</h3>
 
-			<a href="https://www.youtube.com/watch?v=1GXheZA4v1M" target="_blank" class="iOS">
-				<div class="card">
-
-					<img class="card-img-top img-fluid"  src="img/rocket-game.png" alt="an image  linking to a website">
-					<div class="card-block">
-
-						<h5 class="card-title">Let's Rocket!</h5>
-						<label>Take a spaceship to the highest</label>
-
-
+					<div class="project-menu">
+						<button class="btn-active" onclick="filterProjects(this)">All</button>
+						<label>|</label>
+						<button onclick="filterProjects(this)">Web</button>
+						<label>|</label>
+						<button onclick="filterProjects(this)">iOS</button>
 					</div>
-				</div>
-			</a>
-
-			<a href="http://josuebrizuelaxd-local-weather.surge.sh" target="_blank" class="web">
-				<div class="card">
-
-					<img class="card-img-top img-fluid"  src="img/Local-Weather.png" alt="an image  linking to a website">
-					<div class="card-block">
-
-						<h5 class="card-title">Local Weather</h5>
-						<label>Check the weather in you area</label>
-
-
-					</div>
-				</div>
-			</a>
-
-
-			<a href="http://josuebrizuelaxd-tic-tac-toe.surge.sh" target="_blank" class="web">
-				<div class="card">
-
-					<img class="card-img-top img-fluid"  src="img/tic-tac-toe.png" alt="an image  linking to a website" height="500px">
-					<div class="card-block">
-
-						<h5 class="card-title">Tic-Tac-Toe</h5>
-						<label>Tic-Tac-Toe game with an unbeatable AI.</label>
-
-
-					</div>
-				</div>
-			</a>
 
 
 
-			<a href="http://josuebrizuelaxd-wikiviewer.surge.sh" target="_blank" class="web">
-				<div class="card">
+					<div class="card-columns">
 
-					<img class="card-img-top img-fluid"  src="img/wiki-viewer.png" alt="an image  linking to a website" height="500px">
-					<div class="card-block">
+						<a href="http://forever-beautiful.herokuapp.com" target="_blank" class="web">
+							<div class="card">
 
-						<h5 class="card-title">Wiki Viewer</h5>
-						<label>Search for wikipedia entries with a simple interface.</label>
+								<img class="card-img-top img-fluid" src="img/forever-beautiful.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
 
-
-					</div>
-				</div>
-			</a>
+									<h5 class="card-title">Forever Beautiful</h5>
+									<label>Full Stack web app created with React.</label>
 
 
-					<a href="https://josuebrizuelaxd-todo.herokuapp.com" target="_blank" class="web">
-				<div class="card">
+								</div>
+							</div>
+						</a>
 
-					<img class="card-img-top img-fluid"  src="img/todo-list.png" alt="an image  linking to a website">
-					<div class="card-block">
+						<a href="https://www.youtube.com/watch?v=mtzuekIOdsk" target="_blank" class="iOS">
+							<div class="card">
 
-						<h5 class="card-title">To-Do List</h5>
-						<label>Web app where you can save your to-do items in the cloud.</label>
+								<img class="card-img-top img-fluid" src="img/robobird-screenshot.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">Robobird Space</h5>
+									<label>Dodge deadly meteors in this fun game</label>
 
 
-					</div>
-				</div>
-			</a>
+								</div>
+							</div>
+						</a>
+
+						<a href="https://github.com/josueBrizuelaXD/cloudMe" target="_blank" class="iOS">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/cloudme.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">CloudMe</h5>
+									<label>An app to store your pics in the cloud.</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+						<a href="https://github.com/josueBrizuelaXD/Retro-Calculator" target="_blank" class="iOS">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/retro-calculator.png" alt="an image  linking to a website">
+								<div class="card-block">
+
+									<h5 class="card-title">Retro Calculator </h5>
+									<label>An stylish calculator for your iPhone that will bring back old memories.</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+
+
+						<a href="https://www.youtube.com/watch?v=1GXheZA4v1M" target="_blank" class="iOS">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/rocket-game.png" alt="an image  linking to a website">
+								<div class="card-block">
+
+									<h5 class="card-title">Let's Rocket!</h5>
+									<label>Take a spaceship to the highest</label>
+
+
+								</div>
+							</div>
+						</a>
+
+						<a href="http://josuebrizuelaxd-local-weather.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/Local-Weather.png" alt="an image  linking to a website">
+								<div class="card-block">
+
+									<h5 class="card-title">Local Weather</h5>
+									<label>Check the weather in you area</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+						<a href="http://josuebrizuelaxd-tic-tac-toe.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/tic-tac-toe.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">Tic-Tac-Toe</h5>
+									<label>Tic-Tac-Toe game with an unbeatable AI.</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+
+						<a href="http://josuebrizuelaxd-wikiviewer.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/wiki-viewer.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">Wiki Viewer</h5>
+									<label>Search for wikipedia entries with a simple interface.</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+						<a href="https://josuebrizuelaxd-todo.herokuapp.com" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/todo-list.png" alt="an image  linking to a website">
+								<div class="card-block">
+
+									<h5 class="card-title">To-Do List</h5>
+									<label>Web app where you can save your to-do items in the cloud.</label>
+
+
+								</div>
+							</div>
+						</a>
 
 
 
 
 						<a href="http://josuebrizuelaxd-pomodoro.surge.sh" target="_blank" class="web">
-						<div class="card">
+							<div class="card">
 
-							<img class="card-img-top img-fluid"  src="img/pomodorClock.png" alt="an image  linking to a website">
-							<div class="card-block">
+								<img class="card-img-top img-fluid" src="img/pomodorClock.png" alt="an image  linking to a website">
+								<div class="card-block">
 
-								<h5 class="card-title">Pomodoro Clock</h5>
-								<label>A clock with a beautiful animation to manage your time</label>
+									<h5 class="card-title">Pomodoro Clock</h5>
+									<label>A clock with a beautiful animation to manage your time</label>
 
 
+								</div>
 							</div>
+						</a>
+
+
+						<a href="http://josuebrizuelaxd-e-calculator.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/e-calculator.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">E-calculator</h5>
+									<label>An elegant calculator for the web</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+
+						<a href="http://josuebrizuelaxd-simon-game.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/simon-game.png" alt="an image  linking to a website">
+								<div class="card-block">
+
+									<h5 class="card-title">Simon Game</h5>
+									<label>Play the Simon Game</label>
+
+
+								</div>
+							</div>
+						</a>
+
+
+
+
+						<a href="http://randomquote-generator.surge.sh" target="_blank" class="web">
+							<div class="card">
+
+								<img class="card-img-top img-fluid" src="img/random-quote.png" alt="an image  linking to a website" height="500px">
+								<div class="card-block">
+
+									<h5 class="card-title">Random Quote Generator</h5>
+									<label>Get a daily inspiring quote</label>
+
+
+								</div>
+							</div>
+						</a>
+
+					</div>
+
+
+				</div>
+
+				<!-- <div id="contact-section" class="col-md-12">
+					<h3>Contact</h3>
+					<p>I am always open to new ideas and visions. If you have an idea and would like to discuss, send me a message! to josue0991@hotmail.com</p>
+
+				</div> -->
+				<!-- <div id="contact-form" class="div-sec text-left">
+
+					<form>
+						<div class="form-group">
+							<label for="Name"></label>
+							<input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Name">
 						</div>
-					</a>
+
+						<div class="form-group">
+							<label for="Email"></label>
+							<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+
+						</div>
+
+						<div class="form-group">
+							<label for="exampleTextarea"></label>
+							<textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Message"></textarea>
+
+							<small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+						</div>
+						<div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
 
 
-			<a href="http://josuebrizuelaxd-e-calculator.surge.sh" target="_blank" class="web">
-				<div class="card">
+					</form>
 
-					<img class="card-img-top img-fluid"  src="img/e-calculator.png" alt="an image  linking to a website" height="500px">
-					<div class="card-block">
-
-						<h5 class="card-title">E-calculator</h5>
-						<label>An elegant calculator for the web</label>
-
-
-					</div>
-				</div>
-			</a>
-
-
-
-			<a href="http://josuebrizuelaxd-simon-game.surge.sh" target="_blank" class="web">
-			<div class="card">
-
-			<img class="card-img-top img-fluid"  src="img/simon-game.png" alt="an image  linking to a website">
-			<div class="card-block">
-
-				<h5 class="card-title">Simon Game</h5>
-				<label>Play the Simon Game</label>
-
-
+				</div> -->
 			</div>
-			</div>
-			</a>
 
-
-
-
-			<a href="http://randomquote-generator.surge.sh" target="_blank" class="web">
-				<div class="card">
-
-					<img class="card-img-top img-fluid"  src="img/random-quote.png" alt="an image  linking to a website" height="500px">
-					<div class="card-block">
-
-						<h5 class="card-title">Random Quote Generator</h5>
-						<label>Get a daily inspiring quote</label>
-
-
-					</div>
-				</div>
-			</a>
 
 		</div>
-
-
+		<!--end of container -->
 	</div>
-
-	<div id="contact-section" class="col-md-12 div-sec"><h3>Contact</h3>
-		<p>I am always open to new ideas and visions. If you have an idea and would like to discuss, send me a message!</p>
-
-	</div>
-	<div id="contact-form" class="div-sec text-left">
-
-		<form>
-			<div class="form-group">
-				<label for="Name"></label>
-				<input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Name">
-			</div>
-
-			<div class="form-group">
-				<label for="Email"></label>
-				<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-
-			</div>
-
-			<div class="form-group">
-				<label for="exampleTextarea"></label>
-				<textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Message"></textarea>
-
-				<small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-			</div>
-			<div class="text-center"><button type="submit" class="btn btn-primary">Send Message</button></div>
-
-
-		</form>
-
-	</div>
-</div>
-
-
-		</div><!--end of container -->
-	</div><!--end of container-fluid -->
+	<!--end of container-fluid -->
 
 	<footer>
 
@@ -329,9 +334,11 @@
 
 		<script src="js/smooth-scroll.min.js"></script>
 
-		<script>smoothScroll.init({
+		<script>
+			smoothScroll.init({
 				offset: 190
-			});</script>
+			});
+		</script>
 
 	</footer>
 
@@ -341,7 +348,9 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 
 	<!-- if CDN fails to load, serve up the local version -->
-	<script>window.jQuery || document.write('<script src="js/jquery-3.1.1.min.js"><\/script>');</script>
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-3.1.1.min.js"><\/script>');
+	</script>
 
 
 	<!-- load your own jQuery files -->
